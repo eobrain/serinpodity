@@ -1,0 +1,9 @@
+{
+	"id": "org.eamonn.serinpodity",
+	"version": "0.0.1",
+	"vendor": "Eamonn O'Brien-Strain",
+	"type": "web",
+	"main": "index.html",
+	"title": "serinpodity",
+	"icon": "icon.png"
+}

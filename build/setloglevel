@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ "$#" != "1" ]
+then
+  echo "USAGE: $0 [info|error|warning]"
+  exit
+fi
+set -x
+palm-log --system-log-level=$1
