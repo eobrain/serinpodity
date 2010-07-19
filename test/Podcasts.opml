@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+<head>
+	<title>iTunes Subscribed Feeds</title>
+	<dateCreated>Sun, 18 Jul 2010 23:30:53 GMT</dateCreated>
+	<dateModified>Sun, 18 Jul 2010 23:30:53 GMT</dateModified>
+</head>
+<body>
+	<outline text="NPR: Wait Wait... Don't Tell Me! Podcast" type="rss" xmlUrl="http://www.npr.org/rss/podcast.php?id=35" htmlUrl="http://www.npr.org/templates/rundowns/rundown.php?prgId=35&#38;ft=2&#38;f=35" />
+	<outline text="Stuff You Should Know" type="rss" xmlUrl="http://www.howstuffworks.com/podcasts/stuff-you-should-know.rss" htmlUrl="http://www.howstuffworks.com/" />
+	<outline text="The Moth Podcast" type="rss" xmlUrl="http://feeds.feedburner.com/themothpodcast" htmlUrl="http://themoth.prx.org" />
+	<outline text="NPR: Fresh Air Podcast" type="rss" xmlUrl="http://www.npr.org/rss/podcast.php?id=13" htmlUrl="http://freshair.npr.org?ft=2&#38;f=13" />
+	<outline text="NPR: Car Talk Podcast" type="rss" xmlUrl="http://www.npr.org/rss/podcast.php?id=510208" htmlUrl="http://www.cartalk.com?ft=2&#38;f=510208" />
+	<outline text="Freakonomics Radio" type="rss" xmlUrl="http://podcasts.nytimes.com/services/xml/rss/nyt/podcasts/freakonomicsradio.xml" htmlUrl="http://www.nytimes.com" />
+	<outline text="This American Life" type="rss" xmlUrl="http://feeds.thisamericanlife.org/talpodcast" htmlUrl="http://www.thisamericanlife.org" />
+</body>
+</opml>

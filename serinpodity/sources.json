@@ -3,5 +3,9 @@
     {
         "scenes": "audio",
         "source": "app/assistants/audio-assistant.js"
+    },
+    {
+        "scenes": "audio",
+        "source": "app/models/opml.js"
     }
 ]

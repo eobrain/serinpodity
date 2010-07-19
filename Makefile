@@ -9,10 +9,10 @@ NAME=serinpodity
 ID=org.eamonn.$(NAME)
 LINTED=\
  $(NAME)/app/assistants/audio-assistant.linted\
- $(NAME)/app/assistants/stage-assistant.linted
-JS=\
- $(NAME)/app/assistants/audio-assistant.js\
- $(NAME)/app/assistants/stage-assistant.js
+ $(NAME)/app/assistants/stage-assistant.linted\
+ $(NAME)/app/models/show.linted\
+ $(NAME)/app/models/feed.linted\
+ $(NAME)/app/models/opml.linted
 
 JSLINT=java -classpath build/js.jar org.mozilla.javascript.tools.shell.Main build/jslint.js
 JSDOC=java -jar jsdoc-toolkit/jsrun.jar jsdoc-toolkit/app/run.js -t=jsdoc-toolkit/templates/jsdoc
@@ -43,3 +43,7 @@ clean:
 
 publish-doc: doc
 	scp -r apidoc $(NAME).eamonn.org:$(NAME).eamonn.org/apidoc
+
+test: lint
+	open test/runner.html
+
